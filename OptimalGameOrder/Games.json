@@ -1,0 +1,58 @@
+﻿[
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "Surrey"
+  },
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "ULU"
+  },
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "Meridian"
+  },
+  {
+    "HomeTeam": "Blackwater",
+    "AwayTeam": "Clapham"
+  },
+  {
+    "HomeTeam": "ULU",
+    "AwayTeam": "Blackwater"
+  },
+  {
+    "HomeTeam": "Surrey",
+    "AwayTeam": "Castle"
+  },
+  {
+    "HomeTeam": "ULU",
+    "AwayTeam": "Meridian"
+  },
+  {
+    "HomeTeam": "Letchworth",
+    "AwayTeam": "ULU"
+  },
+  {
+    "HomeTeam": "Castle",
+    "AwayTeam": "Blackwater"
+  },
+  {
+    "HomeTeam": "Surrey",
+    "AwayTeam": "Letchworth"
+  },
+  {
+    "HomeTeam": "Meridian",
+    "AwayTeam": "Castle"
+  },
+  {
+    "HomeTeam": "Blackwater",
+    "AwayTeam": "Letchworth"
+  },
+  {
+    "HomeTeam": "Meridian",
+    "AwayTeam": "Surrey"
+  },
+  {
+    "HomeTeam": "Castle",
+    "AwayTeam": "Letchworth"
+  }
+]

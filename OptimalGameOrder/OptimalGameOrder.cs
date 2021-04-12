@@ -16,39 +16,33 @@ namespace OptimalGameOrder
     {
         [FunctionName("OptimalGameOrder")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            //string name = req.Query["name"];
+            var body = await new StreamReader(req.Body).ReadToEndAsync();
 
-            //string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-            //dynamic data = JsonConvert.DeserializeObject(requestBody);
-            //name = name ?? data?.name;
+            var games = JsonConvert.DeserializeObject<List<Game>>(body);
 
-            var games = new List<Game> {
-                new Game("Clapham", "Surrey"),
-                new Game("Clapham", "ULU"),
-                new Game("Clapham", "Meridian"),
-                new Game("Blackwater", "Clapham"),
-                new Game("ULU", "Blackwater"),
-                new Game("Surrey", "Castle"),
-                new Game("ULU", "Meridian"),
-                new Game("Letchworth", "ULU"),
-                new Game("Castle", "Blackwater"),
-                new Game("Surrey", "Letchworth"),
-                new Game("Meridian", "Castle"),
-                new Game("Blackwater", "Letchworth"),
-                new Game("Meridian", "Surrey"),
-                new Game("Castle", "Letchworth")
-             };
+            //var games = new List<Game> {
+            //    new Game("Clapham", "Surrey"),
+            //    new Game("Clapham", "ULU"),
+            //    new Game("Clapham", "Meridian"),
+            //    new Game("Blackwater", "Clapham"),
+            //    new Game("ULU", "Blackwater"),
+            //    new Game("Surrey", "Castle"),
+            //    new Game("ULU", "Meridian"),
+            //    new Game("Letchworth", "ULU"),
+            //    new Game("Castle", "Blackwater"),
+            //    new Game("Surrey", "Letchworth"),
+            //    new Game("Meridian", "Castle"),
+            //    new Game("Blackwater", "Letchworth"),
+            //    new Game("Meridian", "Surrey"),
+            //    new Game("Castle", "Letchworth")
+            // };
 
             var gameOrder = new CanoePoloLeagueOrganiser.OptimalGameOrder(new TenSecondPragmatiser()).OptimiseGameOrder(games);
-            
-            //string responseMessage = string.IsNullOrEmpty(name)
-            //    ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-            //    : $"Hello, {name}. This HTTP triggered function executed successfully.";
 
             return new OkObjectResult(gameOrder);
         }
