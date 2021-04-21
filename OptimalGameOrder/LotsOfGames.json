@@ -1,0 +1,170 @@
+﻿[
+  {
+    "HomeTeam": "Blackwater",
+    "AwayTeam": "ULU"
+  },
+  {
+    "HomeTeam": "ULU",
+    "AwayTeam": "Blackwater"
+  },
+  {
+    "HomeTeam": "Castle",
+    "AwayTeam": "ULU"
+  },
+  {
+    "HomeTeam": "ULU",
+    "AwayTeam": "Castle"
+  },
+  {
+    "HomeTeam": "Castle",
+    "AwayTeam": "Blackwater"
+  },
+  {
+    "HomeTeam": "Blackwater",
+    "AwayTeam": "Castle"
+  },
+  {
+    "HomeTeam": "Meridian",
+    "AwayTeam": "ULU"
+  },
+  {
+    "HomeTeam": "ULU",
+    "AwayTeam": "Meridian"
+  },
+  {
+    "HomeTeam": "Meridian",
+    "AwayTeam": "Blackwater"
+  },
+  {
+    "HomeTeam": "Blackwater",
+    "AwayTeam": "Meridian"
+  },
+  {
+    "HomeTeam": "Meridian",
+    "AwayTeam": "Castle"
+  },
+  {
+    "HomeTeam": "Castle",
+    "AwayTeam": "Meridian"
+  },
+  {
+    "HomeTeam": "Battersea",
+    "AwayTeam": "ULU"
+  },
+  {
+    "HomeTeam": "ULU",
+    "AwayTeam": "Battersea"
+  },
+  {
+    "HomeTeam": "Battersea",
+    "AwayTeam": "Blackwater"
+  },
+  {
+    "HomeTeam": "Blackwater",
+    "AwayTeam": "Battersea"
+  },
+  {
+    "HomeTeam": "Battersea",
+    "AwayTeam": "Castle"
+  },
+  {
+    "HomeTeam": "Castle",
+    "AwayTeam": "Battersea"
+  },
+  {
+    "HomeTeam": "Battersea",
+    "AwayTeam": "Meridian"
+  },
+  {
+    "HomeTeam": "Meridian",
+    "AwayTeam": "Battersea"
+  },
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "ULU"
+  },
+  {
+    "HomeTeam": "ULU",
+    "AwayTeam": "Clapham"
+  },
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "Blackwater"
+  },
+  {
+    "HomeTeam": "Blackwater",
+    "AwayTeam": "Clapham"
+  },
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "Castle"
+  },
+  {
+    "HomeTeam": "Castle",
+    "AwayTeam": "Clapham"
+  },
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "Meridian"
+  },
+  {
+    "HomeTeam": "Meridian",
+    "AwayTeam": "Clapham"
+  },
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "Battersea"
+  },
+  {
+    "HomeTeam": "Battersea",
+    "AwayTeam": "Clapham"
+  },
+  {
+    "HomeTeam": "St Albans",
+    "AwayTeam": "ULU"
+  },
+  {
+    "HomeTeam": "ULU",
+    "AwayTeam": "St Albans"
+  },
+  {
+    "HomeTeam": "St Albans",
+    "AwayTeam": "Blackwater"
+  },
+  {
+    "HomeTeam": "Blackwater",
+    "AwayTeam": "St Albans"
+  },
+  {
+    "HomeTeam": "St Albans",
+    "AwayTeam": "Castle"
+  },
+  {
+    "HomeTeam": "Castle",
+    "AwayTeam": "St Albans"
+  },
+  {
+    "HomeTeam": "St Albans",
+    "AwayTeam": "Meridian"
+  },
+  {
+    "HomeTeam": "Meridian",
+    "AwayTeam": "St Albans"
+  },
+  {
+    "HomeTeam": "St Albans",
+    "AwayTeam": "Battersea"
+  },
+  {
+    "HomeTeam": "Battersea",
+    "AwayTeam": "St Albans"
+  },
+  {
+    "HomeTeam": "St Albans",
+    "AwayTeam": "Clapham"
+  },
+  {
+    "HomeTeam": "Clapham",
+    "AwayTeam": "St Albans"
+  }
+]
